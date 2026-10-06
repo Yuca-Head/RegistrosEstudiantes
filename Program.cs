@@ -10,11 +10,12 @@ namespace RegistroEstudiantes
         {
 
             System.Console.WriteLine("Hello hot!");
+
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new FrmPrincipal());
-            
+            System.Console.WriteLine("GoodBye cold");
         }
     }
 }
